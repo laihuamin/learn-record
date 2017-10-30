@@ -7,6 +7,7 @@
 #### [图解http学习笔记（五）](blog/《图解http》学习笔记（五）.md)
 #### [图解http学习笔记（六）](blog/《图解http》学习笔记（六）.md)
 #### [图解http学习笔记（七）](blog/《图解http》学习笔记（七）.md)
+#### [图解http学习笔记（八）](blog/《图解http》学习笔记（八）.md)
 
 ### 《JavaScript高级程序设计》
 - 备注
