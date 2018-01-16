@@ -1,13 +1,11 @@
 /**
  * @file 索引列表
- * @author errorrik(errorrik@gmail.com)
  */
 
 var each = require('./each');
 
 /**
  * 索引列表，能根据 item 中的 name 进行索引
- *
  * @class
  */
 function IndexedList() {
@@ -17,17 +15,12 @@ function IndexedList() {
 
 /**
  * 在列表末尾添加 item
- *
- * @inner
  * @param {Object} item 要添加的对象
  */
 IndexedList.prototype.push = function (item) {
-    // #[begin] error
     if (!item.name) {
         throw new Error('[SAN ERROR] Miss "name" property');
     }
-    // #[end]
-
     if (!this.index[item.name]) {
         this.raw.push(item);
         this.index[item.name] = item;
@@ -36,8 +29,6 @@ IndexedList.prototype.push = function (item) {
 
 /**
  * 根据 name 获取 item
- *
- * @inner
  * @param {string} name name
  * @return {Object}
  */
@@ -47,8 +38,6 @@ IndexedList.prototype.get = function (name) {
 
 /**
  * 遍历 items
- *
- * @inner
  * @param {function(*,Number):boolean} iterator 遍历函数
  * @param {Object} thisArg 遍历函数运行的this环境
  */
@@ -58,15 +47,16 @@ IndexedList.prototype.each = function (iterator, thisArg) {
 
 /**
  * 根据 name 移除 item
- *
- * @inner
  * @param {string} name name
  */
 IndexedList.prototype.remove = function (name) {
+    // 先从索引中去除name
     this.index[name] = null;
-
+    // 获取数组的长度
     var len = this.raw.length;
+    // 循环遍历
     while (len--) {
+        // 当查取到名字相同的就删除掉
         if (this.raw[len].name === name) {
             this.raw.splice(len, 1);
             break;
