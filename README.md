@@ -18,6 +18,9 @@
 #### [JS高程学习笔记（三）](blog/JS高程学习笔记（三）.md)
 #### [JS高程学习笔记（四）](blog/JS高程学习笔记（四）.md)
 
+### python学习
+#### [python基础学习（一）](blog/python基础学习（一）.md)
+
 ### 《mongodb》权威指南
 #### [《mongodb》权威指南学习笔记（一）](blog/《mongodb》权威指南学习笔记（一）.md)
 
