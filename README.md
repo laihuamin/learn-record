@@ -20,6 +20,7 @@
 
 ### python学习
 #### [python基础学习（一）](blog/python基础学习（一）.md)
+#### [python基础学习（二）](blog/python基础学习（二）.md)
 
 ### 《mongodb》权威指南
 #### [《mongodb》权威指南学习笔记（一）](blog/《mongodb》权威指南学习笔记（一）.md)
