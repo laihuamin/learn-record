@@ -1,3 +1,7 @@
+### 《深入浅出nodejs》
+
+#### [《深入浅出的nodeJS》第二章(1)](blog/《深入浅出的nodeJS》第二章(1).md)
+
 ### 《图解http》
 #### [图解http学习笔记（一）](blog/图解http学习笔记（一）.md)
 #### [图解http学习笔记（二）](blog/图解http学习笔记2.md)
